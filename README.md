@@ -1,2 +1,2 @@
-# graylog
-graylog for docker
+# graylog-server
+graylog server for docker

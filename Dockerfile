@@ -9,8 +9,8 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV SERVER_VERSION graylog-1.2.1
-ENV ES_VERSION elasticsearch-1.6.0
+ENV SERVER_VERSION graylog-1.3.4
+ENV ES_VERSION elasticsearch-2.3.0
 
 # Update & install packages for graylog
 RUN apt-get update && \

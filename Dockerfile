@@ -15,7 +15,7 @@ ENV ES_VERSION elasticsearch-2.3.0
 # Update & install packages for graylog
 RUN apt-get update && \
     apt-get install -y wget dpkg-dev openjdk-7-jre
-RUN wget https://packages.graylog2.org/releases/graylog2-server/$SERVER_VERSION.tgz && \
+RUN wget https://packages.graylog2.org/releases/graylog/$SERVER_VERSION.tgz && \
     tar xvf $SERVER_VERSION.tgz && \
     mkdir -p /etc/graylog/server/
 
